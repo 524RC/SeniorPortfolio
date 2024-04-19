@@ -49,6 +49,7 @@
   .drawingPage{
     margin:100px;
     background-color:rgb(142, 120, 238);
+    background-image: url("wave.jpg");
   }
   .drawingTitle{
     font-family: "Fredericka the Great", serif;
@@ -86,7 +87,7 @@
 }
 .avatar{
     height:800px;
-    width:1200px;
+    width:1000px;
 }
 .contactPage{
     position: relative;
@@ -112,4 +113,12 @@ footer{
     border-radius: 50px 50px 50px;
     border:none;
     float:left;
+}
+
+.drawingBody{
+  background-color:rgb(255, 229, 145);
+  background-image: url("wandering\ frog\ clear\ background\ 1.png");
+}
+.samurai{
+  
 }
