@@ -1,3 +1,6 @@
+*{
+  --bs-gutter-x : 0 !important;
+}
 .fredericka-the great-regular {
     font-family: "Fredericka the Great", serif;
     font-weight: 400;
@@ -29,16 +32,19 @@
   .bio{
     border-color:black;
     border-width:20px;
-    width:40%;
-    height:50%;
+    width:100%;
+    height:1000px;
     transform: skew(-10deg);
     margin-top:10%;
-    background-color:lightgray;
+    background-color:#FFC0CB;
     margin-left:5%;
     border-radius: 15px 50px 30px;
   }
   .bioSentence{
-    font-size:40px;
+    font-family: "Frijole", system-ui;
+    font-size:30px;
+    padding-top:3%;
+    color:#7B68EE;
   }
   .ryan{
     width:70%;
@@ -86,8 +92,8 @@
     width:1000px;
 }
 .avatar{
-    height:800px;
-    width:1000px;
+    height:100%;
+    width:100%;
 }
 .contactPage{
     position: relative;
@@ -118,7 +124,17 @@ footer{
 .drawingBody{
   background-color:rgb(255, 229, 145);
   background-image: url("wandering\ frog\ clear\ background\ 1.png");
-}
+  background-repeat: no-repeat;
+  background-size: fill;
+} 
 .samurai{
-  
+
+  padding-bottom:100%;
+}
+.navbar{
+  color:white;
+}
+
+body {
+  overflow:none;
 }
