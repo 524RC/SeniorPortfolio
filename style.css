@@ -126,9 +126,9 @@ footer{
   background-image: url("wandering\ frog\ clear\ background\ 1.png");
   background-repeat: no-repeat;
   background-size: fill;
+  background-size: cover;
 } 
 .samurai{
-
   padding-bottom:100%;
 }
 .navbar{
